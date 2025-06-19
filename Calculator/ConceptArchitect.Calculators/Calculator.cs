@@ -3,11 +3,16 @@
     public class Calculator
     {
         Dictionary<string,IOperator> operators= new Dictionary<string,IOperator>();
-
+        public IOutputFormatter Formatter { get; set; }
+        public IResultPresenter OutputPresenter { get; set; }
+        public IResultPresenter ErrorPresenter { get; set; }
         public Calculator()
         {
             operators.Add("plus", new PlusOperator());
             operators.Add("minus", new MinusOperator());
+            Formatter = new InfixFormatter();
+            OutputPresenter = new ConsoleResultPresenter();
+            ErrorPresenter = OutputPresenter;
         }
         public void AddOperator(string name, IOperator oper)
         {
@@ -27,11 +32,14 @@
             if (operators.ContainsKey(operatorName))
             {
                 var oper = operators[operatorName];
-                oper.Calculate(number1, number2);
+                var result= oper.Calculate(number1, number2);
+                var output = Formatter.Format(operatorName, number1, number2, result);
+                OutputPresenter.Present(output);
             }
             else
             {
-                Console.WriteLine($"Invalid Operator: {operatorName}");
+                //Console.WriteLine($"Invalid Operator: {operatorName}");
+                ErrorPresenter.Present($"Invalid Operator: {operatorName}");
             }
         }
     }

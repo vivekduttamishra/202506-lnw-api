@@ -11,6 +11,15 @@ namespace CalculatorApp
             //TestCalculator(calc);
 
             calculator.AddOperator("multiply", new MultiplyOperator());
+            //calculator.Formatter = new RawFormatter();
+            calculator.OutputPresenter = new ColoredConsolePresenter()
+            {
+                Color = ConsoleColor.Yellow
+            };
+            calculator.ErrorPresenter = new ColoredConsolePresenter()
+            {
+                Color= ConsoleColor.Red
+            };
 
             if (args.Length == 0)
                 RunShell(calculator);
