@@ -1,5 +1,6 @@
 ﻿
 using System.Diagnostics;
+using System.Numerics;
 
 namespace ConceptArchitect.Calculators
 
@@ -10,7 +11,7 @@ namespace ConceptArchitect.Calculators
         {
             //TestCalculatorOperations(calculator);
 
-            Calculator calculator=new Calculator();
+            CalculatorV4 calculator=new CalculatorV4();
 
             if (args.Length == 0)
                 RunShell(calculator);
@@ -20,7 +21,17 @@ namespace ConceptArchitect.Calculators
 
         }
 
-        private static void RunCommandLine(Calculator calculator, string[] args)
+        static void TestCalculatorV4()
+        {
+            var calc = new CalculatorV4();
+            calc.Calculate(20, new PlusOperator(), 30);
+            calc.Calculate(20, new MinusOperator(), 30);
+            //calc.Calculate(20, "multiply", 30);
+
+            //calc.Calculate(20, new MultiplyOperator(), 40);
+        }
+
+        private static void RunCommandLine(CalculatorV4 calculator, string[] args)
         {
             var operation = args[0].ToLower();
             if(operation == "help")
@@ -45,7 +56,7 @@ namespace ConceptArchitect.Calculators
 
         }
 
-        private static void RunShell(Calculator calculator)
+        private static void RunShell(CalculatorV4 calculator)
         {
             try
             {
@@ -73,7 +84,7 @@ namespace ConceptArchitect.Calculators
 
         private static void TestCalculatorOperations()
         {
-            var calculator = new Calculator();
+            var calculator = new CalculatorV4();
             calculator.Calculate(20, "plus", 30);
             calculator.Calculate(40, "minus", 2);
             calculator.Calculate(50, "foo", 4);
