@@ -11,17 +11,29 @@
         public IResultPresenter ErrorPresenter { get; set; }
         public Calculator()
         {
-            operators.Add("plus", new PlusOperator());
-            operators.Add("minus", new MinusOperator());
+            //operators.Add("plus", new PlusOperator());
+            //operators.Add("minus", new MinusOperator());
+
+            AddOperator(new PlusOperator(), "plus", "add", "sum");
+            AddOperator(new MinusOperator(), "minus", "substract", "sub");
+
             Formatter = new InfixFormatter();
             OutputPresenter = new ConsoleResultPresenter();
             ErrorPresenter = OutputPresenter;
         }
 
-        public void AddOperator(IOperator oper, string name = null)
+        public Calculator AddOperator(IOperator oper, string name, params string []aliasNames)
         {
+
             operators[name.ToLower()] = oper;
+        
+            foreach(var aliasName in aliasNames )
+                operators[aliasName.ToLower()] = oper;
+
+            return this;
         }
+
+    
 
 
         public IEnumerable<String> Operators

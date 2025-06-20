@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConceptArchitect.Calculators")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a2e35a7f091c52198a167d4e5dc3966e2363e37")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d73790b7f133369b8ba735c37228c5ac7c4c783")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConceptArchitect.Calculators")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConceptArchitect.Calculators")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

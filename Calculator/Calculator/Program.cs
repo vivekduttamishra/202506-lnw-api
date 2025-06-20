@@ -10,30 +10,28 @@ namespace CalculatorApp
             var calculator = new Calculator();
             //TestCalculator(calc);
 
-            calculator.AddOperator(new MultiplyOperator(),"multiply");
+            //calculator.AddOperator(new MultiplyOperator(),"multiply");
+            //calculator.AddOperator(new DivideOperator(), "divide");
+            //calculator.AddOperator(new FunctionAdapter(new DivideOperator().Calculate), "divide");
 
 
             //calculator.AddOperator(Math.Pow, "power");
 
-            calculator.AddOperator(new FunctionAdapter(Math.Pow), "power");
+            //calculator.AddOperator(new FunctionAdapter(Math.Pow), "power");
 
-
-            //calculator.AddOperator(new DivideOperator(), "divide");
-            calculator.AddOperator(new FunctionAdapter(new DivideOperator().Calculate), "divide");
-
-
-            calculator.AddOperator(new FunctionAdapter((x, y) => x % y), "mod");
-
-
-            //calculator.Formatter = new RawFormatter();
-            calculator.OutputPresenter = new ColoredConsolePresenter()
-            {
-                Color = ConsoleColor.Yellow
-            };
-            calculator.ErrorPresenter = new ColoredConsolePresenter()
-            {
-                Color= ConsoleColor.Red
-            };
+            calculator
+                .AddOperator(Math.Pow, "power")
+                .AddLnwOperators()
+                .AddOperator((x, y) => x % y, "mod")
+                .AddOperator((x, y) => (x + y) / (x - y), "custom")
+                .SetOutputPresenter(new ColoredConsolePresenter()
+                {
+                    Color = ConsoleColor.Yellow
+                })
+                .SetErrorPresenter(new ColoredConsolePresenter()
+                {
+                    Color = ConsoleColor.Red
+                });
 
             if (args.Length == 0)
                 RunShell(calculator);

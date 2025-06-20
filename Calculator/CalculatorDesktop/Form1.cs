@@ -15,8 +15,11 @@ namespace CalculatorDesktop
                 Target = resultLabel 
             };
             calc.ErrorPresenter = new MessageBoxErrorPresenter();
-            calc.AddOperator(new MultiplyOperator(),"multiply");
-            calc.AddOperator(new DivideOperator(), "divide");
+            //calc.AddOperator(new MultiplyOperator(),"multiply");
+            //calc.AddOperator(new FunctionAdapter(new DivideOperator().Calculate), "divide");
+
+            calc.AddLnwOperators();
+
             foreach(var operation in calc.Operators)
             {
                 operationList.Items.Add(operation);
