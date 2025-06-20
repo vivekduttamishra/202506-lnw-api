@@ -7,7 +7,7 @@ namespace CalculatorApp
     {
         static void Main(string[] args)
         {
-            var calculator = new Calculator();
+            //var calculator = new Calculator();
             //TestCalculator(calc);
 
             //calculator.AddOperator(new MultiplyOperator(),"multiply");
@@ -19,19 +19,22 @@ namespace CalculatorApp
 
             //calculator.AddOperator(new FunctionAdapter(Math.Pow), "power");
 
-            calculator
-                .AddOperator(Math.Pow, "power")
-                .AddLnwOperators()
-                .AddOperator((x, y) => x % y, "mod")
-                .AddOperator((x, y) => (x + y) / (x - y), "custom")
-                .SetOutputPresenter(new ColoredConsolePresenter()
-                {
-                    Color = ConsoleColor.Yellow
-                })
-                .SetErrorPresenter(new ColoredConsolePresenter()
-                {
-                    Color = ConsoleColor.Red
-                });
+            //calculator
+            //    .AddOperator(Math.Pow, "power")
+            //    .AddLnwOperators()
+            //    .AddOperator((x, y) => x % y, "mod")
+            //    .AddOperator((x, y) => (x + y) / (x - y), "custom")
+
+            var calculator = new CalculatorBuilder()
+                                .Build()
+                                .SetOutputPresenter(new ColoredConsolePresenter()
+                                {
+                                    Color = ConsoleColor.Yellow
+                                })
+                                .SetErrorPresenter(new ColoredConsolePresenter()
+                                {
+                                    Color = ConsoleColor.Red
+                                });
 
             if (args.Length == 0)
                 RunShell(calculator);
@@ -46,9 +49,7 @@ namespace CalculatorApp
             var operation = args[0].ToLower();
             if (operation == "help")
             {
-                foreach (var opr in calculator.Operators)
-                    Console.Write(opr + ", ");
-                Console.WriteLine("help, exit");
+                GenerateHelp(calculator,args);
                 return;
             }
             else if (operation == "exit")
@@ -67,6 +68,25 @@ namespace CalculatorApp
             calculator.Calculate(number1, operation, number2);
 
 
+        }
+
+        private static void GenerateHelp(Calculator calculator, string[]args)
+        {
+            if (args.Length == 1)
+            {
+               foreach (var opr in calculator.Operators)
+                    Console.Write(opr + ", ");
+                Console.WriteLine("help, exit");
+            }else
+            {
+                var command = args[1];
+                Console.WriteLine($"About: {command}");
+                Console.Write($"Alias: ");
+                foreach (var alias in calculator.GetAlias(command))
+                    Console.Write(alias + "\t");
+                Console.WriteLine();
+                Console.WriteLine(calculator.GetHelp(command));
+            }
         }
 
         private static void RunShell(Calculator calculator)

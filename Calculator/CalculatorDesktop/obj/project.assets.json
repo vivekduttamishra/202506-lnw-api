@@ -11,19 +11,6 @@
         "runtime": {
           "bin/placeholder/ConceptArchitect.Calculators.dll": {}
         }
-      },
-      "Lnw.Calculations/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "ConceptArchitect.Calculators": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Lnw.Calculations.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Lnw.Calculations.dll": {}
-        }
       }
     }
   },
@@ -32,17 +19,11 @@
       "type": "project",
       "path": "../ConceptArchitect.Calculators/ConceptArchitect.Calculators.csproj",
       "msbuildProject": "../ConceptArchitect.Calculators/ConceptArchitect.Calculators.csproj"
-    },
-    "Lnw.Calculations/1.0.0": {
-      "type": "project",
-      "path": "../Lnw.Calculations/Lnw.Calculations.csproj",
-      "msbuildProject": "../Lnw.Calculations/Lnw.Calculations.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "ConceptArchitect.Calculators >= 1.0.0",
-      "Lnw.Calculations >= 1.0.0"
+      "ConceptArchitect.Calculators >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -79,9 +60,6 @@
           "projectReferences": {
             "D:\\works\\corporate\\202506-lnw-api\\Calculator\\ConceptArchitect.Calculators\\ConceptArchitect.Calculators.csproj": {
               "projectPath": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\ConceptArchitect.Calculators\\ConceptArchitect.Calculators.csproj"
-            },
-            "D:\\works\\corporate\\202506-lnw-api\\Calculator\\Lnw.Calculations\\Lnw.Calculations.csproj": {
-              "projectPath": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\Lnw.Calculations\\Lnw.Calculations.csproj"
             }
           }
         }

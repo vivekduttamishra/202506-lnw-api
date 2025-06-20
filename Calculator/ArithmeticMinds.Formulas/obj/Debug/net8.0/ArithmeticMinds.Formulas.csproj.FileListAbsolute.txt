@@ -1,0 +1,16 @@
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\bin\Debug\net8.0\ArithmeticMinds.Formulas.deps.json
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\bin\Debug\net8.0\ArithmeticMinds.Formulas.dll
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\bin\Debug\net8.0\ArithmeticMinds.Formulas.pdb
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\bin\Debug\net8.0\ConceptArchitect.Calculators.dll
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\bin\Debug\net8.0\ConceptArchitect.Calculators.pdb
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\obj\Debug\net8.0\ArithmeticMinds.Formulas.csproj.AssemblyReference.cache
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\obj\Debug\net8.0\ArithmeticMinds.Formulas.GeneratedMSBuildEditorConfig.editorconfig
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\obj\Debug\net8.0\ArithmeticMinds.Formulas.AssemblyInfoInputs.cache
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\obj\Debug\net8.0\ArithmeticMinds.Formulas.AssemblyInfo.cs
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\obj\Debug\net8.0\ArithmeticMinds.Formulas.csproj.CoreCompileInputs.cache
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\obj\Debug\net8.0\ArithmeticMinds.Formulas.sourcelink.json
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\obj\Debug\net8.0\Arithmet.5E456C3E.Up2Date
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\obj\Debug\net8.0\ArithmeticMinds.Formulas.dll
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\obj\Debug\net8.0\refint\ArithmeticMinds.Formulas.dll
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\obj\Debug\net8.0\ArithmeticMinds.Formulas.pdb
+D:\works\corporate\202506-lnw-api\Calculator\ArithmeticMinds.Formulas\obj\Debug\net8.0\ref\ArithmeticMinds.Formulas.dll

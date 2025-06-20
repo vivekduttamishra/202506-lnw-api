@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ArithmeticMinds.Formulas/1.0.0": {
+        "dependencies": {
+          "ConceptArchitect.Calculators": "1.0.0"
+        },
+        "runtime": {
+          "ArithmeticMinds.Formulas.dll": {}
+        }
+      },
+      "ConceptArchitect.Calculators/1.0.0": {
+        "runtime": {
+          "ConceptArchitect.Calculators.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArithmeticMinds.Formulas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConceptArchitect.Calculators/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

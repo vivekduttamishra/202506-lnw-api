@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "CalculatorDesktop/1.0.0": {
         "dependencies": {
-          "ConceptArchitect.Calculators": "1.0.0",
-          "Lnw.Calculations": "1.0.0"
+          "ConceptArchitect.Calculators": "1.0.0"
         },
         "runtime": {
           "CalculatorDesktop.dll": {}
@@ -18,17 +17,6 @@
       "ConceptArchitect.Calculators/1.0.0": {
         "runtime": {
           "ConceptArchitect.Calculators.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Lnw.Calculations/1.0.0": {
-        "dependencies": {
-          "ConceptArchitect.Calculators": "1.0.0"
-        },
-        "runtime": {
-          "Lnw.Calculations.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -43,11 +31,6 @@
       "sha512": ""
     },
     "ConceptArchitect.Calculators/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Lnw.Calculations/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

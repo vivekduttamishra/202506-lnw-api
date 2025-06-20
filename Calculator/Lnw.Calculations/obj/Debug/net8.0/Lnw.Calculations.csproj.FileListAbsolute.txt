@@ -9,8 +9,8 @@ D:\works\corporate\202506-lnw-api\Calculator\Lnw.Calculations\obj\Debug\net8.0\L
 D:\works\corporate\202506-lnw-api\Calculator\Lnw.Calculations\obj\Debug\net8.0\Lnw.Calculations.AssemblyInfo.cs
 D:\works\corporate\202506-lnw-api\Calculator\Lnw.Calculations\obj\Debug\net8.0\Lnw.Calculations.csproj.CoreCompileInputs.cache
 D:\works\corporate\202506-lnw-api\Calculator\Lnw.Calculations\obj\Debug\net8.0\Lnw.Calculations.sourcelink.json
+D:\works\corporate\202506-lnw-api\Calculator\Lnw.Calculations\obj\Debug\net8.0\Lnw.Calc.2ED3E6B4.Up2Date
 D:\works\corporate\202506-lnw-api\Calculator\Lnw.Calculations\obj\Debug\net8.0\Lnw.Calculations.dll
 D:\works\corporate\202506-lnw-api\Calculator\Lnw.Calculations\obj\Debug\net8.0\refint\Lnw.Calculations.dll
 D:\works\corporate\202506-lnw-api\Calculator\Lnw.Calculations\obj\Debug\net8.0\Lnw.Calculations.pdb
 D:\works\corporate\202506-lnw-api\Calculator\Lnw.Calculations\obj\Debug\net8.0\ref\Lnw.Calculations.dll
-D:\works\corporate\202506-lnw-api\Calculator\Lnw.Calculations\obj\Debug\net8.0\Lnw.Calc.2ED3E6B4.Up2Date

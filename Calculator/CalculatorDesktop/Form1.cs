@@ -1,29 +1,25 @@
 using ConceptArchitect.Calculators;
-using Lnw.Calculations;
 
 namespace CalculatorDesktop
 {
     public partial class Form1 : Form
     {
-        Calculator calc = new Calculator();
+        Calculator calc;
 
         public Form1()
         {
             InitializeComponent();
+            var builder = new CalculatorBuilder();
+            calc = builder.Build();
+
             calc.OutputPresenter = new ComponentResultPresenter() 
             { 
                 Target = resultLabel 
             };
-            calc.ErrorPresenter = new MessageBoxErrorPresenter();
-            //calc.AddOperator(new MultiplyOperator(),"multiply");
-            //calc.AddOperator(new FunctionAdapter(new DivideOperator().Calculate), "divide");
 
-            calc.AddLnwOperators();
 
-            foreach(var operation in calc.Operators)
-            {
+            foreach (var operation in calc.Operators)
                 operationList.Items.Add(operation);
-            }
             
         }
 

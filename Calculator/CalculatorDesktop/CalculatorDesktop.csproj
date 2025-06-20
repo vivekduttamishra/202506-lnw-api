@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ConceptArchitect.Calculators\ConceptArchitect.Calculators.csproj" />
-    <ProjectReference Include="..\Lnw.Calculations\Lnw.Calculations.csproj" />
   </ItemGroup>
 
 </Project>
