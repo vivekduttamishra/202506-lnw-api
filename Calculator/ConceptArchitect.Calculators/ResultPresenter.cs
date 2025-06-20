@@ -11,6 +11,8 @@ namespace ConceptArchitect.Calculators
         public void Present(object output);
     }
 
+    //Action<object>
+
     public class ConsoleResultPresenter : IResultPresenter
     {
         public void Present(object output)

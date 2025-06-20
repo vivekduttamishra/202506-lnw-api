@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConceptArchitect.Calculators
 {
-    public class CalculatorV3
+    public class Calculator
     {
         public void Calculate(double number1, string oper, double number2)
         {

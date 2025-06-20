@@ -10,7 +10,21 @@ namespace CalculatorApp
             var calculator = new Calculator();
             //TestCalculator(calc);
 
-            calculator.AddOperator("multiply", new MultiplyOperator());
+            calculator.AddOperator(new MultiplyOperator(),"multiply");
+
+
+            //calculator.AddOperator(Math.Pow, "power");
+
+            calculator.AddOperator(new FunctionAdapter(Math.Pow), "power");
+
+
+            //calculator.AddOperator(new DivideOperator(), "divide");
+            calculator.AddOperator(new FunctionAdapter(new DivideOperator().Calculate), "divide");
+
+
+            calculator.AddOperator(new FunctionAdapter((x, y) => x % y), "mod");
+
+
             //calculator.Formatter = new RawFormatter();
             calculator.OutputPresenter = new ColoredConsolePresenter()
             {

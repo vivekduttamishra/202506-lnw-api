@@ -17,7 +17,10 @@
       },
       "ConceptArchitect.Calculators/1.0.0": {
         "runtime": {
-          "ConceptArchitect.Calculators.dll": {}
+          "ConceptArchitect.Calculators.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Lnw.Calculations/1.0.0": {
@@ -25,7 +28,10 @@
           "ConceptArchitect.Calculators": "1.0.0"
         },
         "runtime": {
-          "Lnw.Calculations.dll": {}
+          "Lnw.Calculations.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

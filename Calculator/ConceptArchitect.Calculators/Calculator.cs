@@ -2,6 +2,9 @@
 {
     public class Calculator
     {
+
+      
+
         Dictionary<string,IOperator> operators= new Dictionary<string,IOperator>();
         public IOutputFormatter Formatter { get; set; }
         public IResultPresenter OutputPresenter { get; set; }
@@ -14,10 +17,12 @@
             OutputPresenter = new ConsoleResultPresenter();
             ErrorPresenter = OutputPresenter;
         }
-        public void AddOperator(string name, IOperator oper)
+
+        public void AddOperator(IOperator oper, string name = null)
         {
             operators[name.ToLower()] = oper;
         }
+
 
         public IEnumerable<String> Operators
         {

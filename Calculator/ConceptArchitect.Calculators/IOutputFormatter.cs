@@ -11,6 +11,9 @@ namespace ConceptArchitect.Calculators
         string Format(string operation, double number1, double number2, double result);
     }
 
+    //public delegate string OutputFormatter(string operation, double n1, double n2, double result);
+    // Func<string,double,double,double,string>
+
     public class InfixFormatter : IOutputFormatter
     {
         public string Format(string operation, double number1, double number2, double result)

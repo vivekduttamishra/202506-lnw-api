@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4937A585-875F-4229-9CCE-2272F8658553}|Calculator\\Calculator.csproj|d:\\works\\corporate\\202506-lnw-api\\calculator\\calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4937A585-875F-4229-9CCE-2272F8658553}|Calculator\\Calculator.csproj|solutionrelative:calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53DCE8B-0955-4474-B8D7-BBED05BDD997}|ConceptArchitect.Calculators\\ConceptArchitect.Calculators.csproj|d:\\works\\corporate\\202506-lnw-api\\calculator\\conceptarchitect.calculators\\functionadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53DCE8B-0955-4474-B8D7-BBED05BDD997}|ConceptArchitect.Calculators\\ConceptArchitect.Calculators.csproj|solutionrelative:conceptarchitect.calculators\\functionadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53DCE8B-0955-4474-B8D7-BBED05BDD997}|ConceptArchitect.Calculators\\ConceptArchitect.Calculators.csproj|d:\\works\\corporate\\202506-lnw-api\\calculator\\conceptarchitect.calculators\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53DCE8B-0955-4474-B8D7-BBED05BDD997}|ConceptArchitect.Calculators\\ConceptArchitect.Calculators.csproj|solutionrelative:conceptarchitect.calculators\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{914ACD2E-7699-4A56-9AD1-BDB982759E34}|Lnw.Calculations\\Lnw.Calculations.csproj|d:\\works\\corporate\\202506-lnw-api\\calculator\\lnw.calculations\\divideoperator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{914ACD2E-7699-4A56-9AD1-BDB982759E34}|Lnw.Calculations\\Lnw.Calculations.csproj|solutionrelative:lnw.calculations\\divideoperator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{914ACD2E-7699-4A56-9AD1-BDB982759E34}|Lnw.Calculations\\Lnw.Calculations.csproj|d:\\works\\corporate\\202506-lnw-api\\calculator\\lnw.calculations\\multiplyoperator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{914ACD2E-7699-4A56-9AD1-BDB982759E34}|Lnw.Calculations\\Lnw.Calculations.csproj|solutionrelative:lnw.calculations\\multiplyoperator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53DCE8B-0955-4474-B8D7-BBED05BDD997}|ConceptArchitect.Calculators\\ConceptArchitect.Calculators.csproj|d:\\works\\corporate\\202506-lnw-api\\calculator\\conceptarchitect.calculators\\ioutputformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53DCE8B-0955-4474-B8D7-BBED05BDD997}|ConceptArchitect.Calculators\\ConceptArchitect.Calculators.csproj|solutionrelative:conceptarchitect.calculators\\ioutputformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53DCE8B-0955-4474-B8D7-BBED05BDD997}|ConceptArchitect.Calculators\\ConceptArchitect.Calculators.csproj|d:\\works\\corporate\\202506-lnw-api\\calculator\\conceptarchitect.calculators\\resultpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53DCE8B-0955-4474-B8D7-BBED05BDD997}|ConceptArchitect.Calculators\\ConceptArchitect.Calculators.csproj|solutionrelative:conceptarchitect.calculators\\resultpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A53DCE8B-0955-4474-B8D7-BBED05BDD997}|ConceptArchitect.Calculators\\ConceptArchitect.Calculators.csproj|d:\\works\\corporate\\202506-lnw-api\\calculator\\conceptarchitect.calculators\\operators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53DCE8B-0955-4474-B8D7-BBED05BDD997}|ConceptArchitect.Calculators\\ConceptArchitect.Calculators.csproj|solutionrelative:conceptarchitect.calculators\\operators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 412,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FunctionAdapter.cs",
+              "DocumentMoniker": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\ConceptArchitect.Calculators\\FunctionAdapter.cs",
+              "RelativeDocumentMoniker": "ConceptArchitect.Calculators\\FunctionAdapter.cs",
+              "ToolTip": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\ConceptArchitect.Calculators\\FunctionAdapter.cs*",
+              "RelativeToolTip": "ConceptArchitect.Calculators\\FunctionAdapter.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T07:54:00.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DivideOperator.cs",
+              "DocumentMoniker": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\Lnw.Calculations\\DivideOperator.cs",
+              "RelativeDocumentMoniker": "Lnw.Calculations\\DivideOperator.cs",
+              "ToolTip": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\Lnw.Calculations\\DivideOperator.cs",
+              "RelativeToolTip": "Lnw.Calculations\\DivideOperator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T07:43:01.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MultiplyOperator.cs",
+              "DocumentMoniker": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\Lnw.Calculations\\MultiplyOperator.cs",
+              "RelativeDocumentMoniker": "Lnw.Calculations\\MultiplyOperator.cs",
+              "ToolTip": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\Lnw.Calculations\\MultiplyOperator.cs",
+              "RelativeToolTip": "Lnw.Calculations\\MultiplyOperator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T07:42:31.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\Calculator\\Program.cs",
+              "RelativeDocumentMoniker": "Calculator\\Program.cs",
+              "ToolTip": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\Calculator\\Program.cs*",
+              "RelativeToolTip": "Calculator\\Program.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA4wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T07:39:19.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\ConceptArchitect.Calculators\\Calculator.cs",
+              "RelativeDocumentMoniker": "ConceptArchitect.Calculators\\Calculator.cs",
+              "ToolTip": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\ConceptArchitect.Calculators\\Calculator.cs*",
+              "RelativeToolTip": "ConceptArchitect.Calculators\\Calculator.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T07:08:07.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IOutputFormatter.cs",
+              "DocumentMoniker": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\ConceptArchitect.Calculators\\IOutputFormatter.cs",
+              "RelativeDocumentMoniker": "ConceptArchitect.Calculators\\IOutputFormatter.cs",
+              "ToolTip": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\ConceptArchitect.Calculators\\IOutputFormatter.cs*",
+              "RelativeToolTip": "ConceptArchitect.Calculators\\IOutputFormatter.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T07:37:34.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResultPresenter.cs",
+              "DocumentMoniker": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\ConceptArchitect.Calculators\\ResultPresenter.cs",
+              "RelativeDocumentMoniker": "ConceptArchitect.Calculators\\ResultPresenter.cs",
+              "ToolTip": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\ConceptArchitect.Calculators\\ResultPresenter.cs*",
+              "RelativeToolTip": "ConceptArchitect.Calculators\\ResultPresenter.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T07:37:12.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Operators.cs",
+              "DocumentMoniker": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\ConceptArchitect.Calculators\\Operators.cs",
+              "RelativeDocumentMoniker": "ConceptArchitect.Calculators\\Operators.cs",
+              "ToolTip": "D:\\works\\corporate\\202506-lnw-api\\Calculator\\ConceptArchitect.Calculators\\Operators.cs*",
+              "RelativeToolTip": "ConceptArchitect.Calculators\\Operators.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T07:36:07.825Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

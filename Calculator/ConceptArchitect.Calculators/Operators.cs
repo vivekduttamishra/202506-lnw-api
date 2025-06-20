@@ -11,6 +11,9 @@ namespace ConceptArchitect.Calculators
         public double Calculate(double x, double y);
     }
 
+    delegate double Operator(double x, double y);
+    //Func<double,double,double>
+
     public class PlusOperator:IOperator
     {
         public double Calculate(double number1, double number2)
